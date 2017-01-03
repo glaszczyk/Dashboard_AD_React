@@ -1,0 +1,7 @@
+$title-medium: (
+	size: 24px
+);
+
+.title-medium {
+	@include font($title-medium);
+}

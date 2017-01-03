@@ -1,0 +1,7 @@
+$text-small: (
+	size: 16px
+);
+
+.text-small {
+	@include font($text-small);
+}

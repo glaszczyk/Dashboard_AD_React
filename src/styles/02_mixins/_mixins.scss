@@ -1,0 +1,15 @@
+@mixin font($user-defined) {
+	$default-font-style: (
+		family: $font-family,
+		weight: normal,
+		style: normal,
+		size: 16px
+	);
+	
+	$param: map-merge($default-font-style, $user-defined);
+
+	font-family: map-get($param, family);
+	font-weight: map-get($param, weight);
+	font-style: map-get($param, style);
+	font-size: map-get($param, size);
+}

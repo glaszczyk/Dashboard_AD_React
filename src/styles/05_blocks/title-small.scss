@@ -1,0 +1,7 @@
+$title-small: (
+	size: 16px
+);
+
+.title-small {
+	@include font($title-small);
+}

@@ -1,0 +1,7 @@
+$title-big: (
+	size: 36px
+);
+
+.title-big {
+	@include font($title-big);
+}
