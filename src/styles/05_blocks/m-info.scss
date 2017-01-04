@@ -1,0 +1,44 @@
+%bottom-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info {
+	&__top-part {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__top-part-left {
+		
+	}
+	&__top-part-right {
+
+	}
+	&__bottom-part {
+		@extend %bottom-flex;
+		background-color: $body-text-color;
+	}
+	&__bottom-part--blue {
+		@extend %bottom-flex;
+		background-color: $color-blue;
+	}
+	&__bottom-part--green {
+		@extend %bottom-flex;
+		background-color: $color-green;
+	}
+	&__bottom-part--red {
+		@extend %bottom-flex;
+		background-color: $color-red;
+	}
+	&__bottom-part--orange {
+		@extend %bottom-flex;
+		background-color: $color-orange;
+	}
+	&__bottom-part-left {
+		
+	}
+	&__bottom-part-right {
+
+	}
+}

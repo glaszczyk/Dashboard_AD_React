@@ -1,8 +1,8 @@
 {
-  "name": "responsive_slider",
+  "name": "dashboard_with_atomic_design",
   "bin": {},
   "version": "1.0.0",
-  "description": "Responsive slider with React, Sass, ES2015",
+  "description": "Dashboard with Atomic Design React, Sass, ES2015",
   "main": "main.js",
   "dependencies": {},
   "devDependencies": {

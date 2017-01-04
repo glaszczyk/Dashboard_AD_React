@@ -1,0 +1,9 @@
+$text-x-small: (
+	size: 19px
+);
+
+.text-x-small {
+	@include font($text-x-small);
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}

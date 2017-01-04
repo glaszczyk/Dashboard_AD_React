@@ -1,0 +1,25 @@
+$text-medium: (
+	size: 19px
+);
+
+[class^="text--"] {
+	@include font($text-medium);
+	color: $body-text-color;
+}
+.text {
+	&--x-small {
+		font-size: 13px;
+	}
+	&--small {
+		font-size: 16px;
+	}
+	&--medium {
+
+	}
+	&--large {
+		font-size: 26px;
+	}
+	&--x-large {
+		font-size: 36px;
+	}
+}

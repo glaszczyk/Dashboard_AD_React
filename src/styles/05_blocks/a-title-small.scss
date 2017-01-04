@@ -1,7 +1,9 @@
 $title-small: (
-	size: 16px
+	size: 19px
 );
 
 .title-small {
 	@include font($title-small);
+	text-transform: uppercase;
+	letter-spacing: .5px;
 }

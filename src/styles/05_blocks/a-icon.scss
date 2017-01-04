@@ -1,0 +1,22 @@
+$icon-height: 19px;
+
+[class^="icon--"] {
+	color: $body-text-color;
+}
+.icon {
+	&--x-small {
+		@include icon-height(13px);
+	}
+	&--small {
+		@include icon-height($icon-height);
+	}
+	&--medium {
+		@include icon-height(24px);
+	}
+	&--large {
+		@include icon-height(36px);
+	}
+	&--x-large {
+		@include icon-height(46px);
+	}
+}

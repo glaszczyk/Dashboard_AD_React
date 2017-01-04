@@ -1,5 +1,11 @@
-@import './text-small';
+// Atoms blocks
+@import './a-text';
 
-@import './title-small';
-@import './title-medium';
-@import './title-big';
+@import './a-title-small';
+@import './a-title-medium';
+@import './a-title-large';
+
+@import './a-icon';
+
+// Molecules blocks
+@import './m-info';
